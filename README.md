@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# Testing app for starknet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Small app that uses starknet.js and starknetkit.js 
+for auth and sign messages.
 
-Currently, two official plugins are available:
+App not sending data anywhere else. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Install
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- Install all dependencies
+```bash
+yarn
+```
+- Run
+```bash
+yarn dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Screenshots
+
+![img.png](screenshots/img.png)
+
+![img_1.png](screenshots/img_1.png)
+
+![img_2.png](screenshots/img_2.png)
+
+![img_3.png](screenshots/img_3.png)
+
+![img_4.png](screenshots/img_4.png)
+
